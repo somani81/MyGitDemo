@@ -66,7 +66,7 @@
     logInButton.center = self.view.center;
     [self.view addSubview:logInButton];
 
-    
+    //Test My Codde
     FBSDKLikeControl *button = [[FBSDKLikeControl alloc]  initWithFrame:CGRectMake(150, 150, 50, 50)];
     CGRect bounds = self.view.bounds;
     button.center = CGPointMake(

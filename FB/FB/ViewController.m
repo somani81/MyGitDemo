@@ -8,9 +8,6 @@
 
 #import "ViewController.h"
 #import <TwitterKit/TwitterKit.h>
-
-
-
 @interface ViewController ()
 
 @end
@@ -63,8 +60,11 @@
              }];
          }
     }];
+    
+    
+    
     logInButton.center = self.view.center;
-   // [self.view addSubview:logInButton];
+    [self.view addSubview:logInButton];
 
     
     FBSDKLikeControl *button = [[FBSDKLikeControl alloc]  initWithFrame:CGRectMake(150, 150, 50, 50)];
